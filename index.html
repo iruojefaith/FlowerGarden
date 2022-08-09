@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <title>FlowerGarden</title>
+
     <!-- CUSTOM CSS-->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
     <nav>
@@ -15,8 +19,8 @@
             <a href="index.html" class="nav__logo"><img src="logo.png" alt="nav logo" width="100rem" height="65rem"></a>
             <ul class="nav__links">
                 <li><a href="#">Home</a></li>
-                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#knowmore">Know more</a></li>
+                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#exhibitions">Exhibition</a></li>
             </ul>
             <ul class="nav__socials">
@@ -65,10 +69,90 @@
             <img src="https://images.pexels.com/photos/931167/pexels-photo-931167.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Header Frame Two">
         </div>
     </div>
-    <!-- <a href="mailto:faithiruoje@gmail.com" class="contact__btn header__btn">
-        <i class="uil uil-flower"></i>
-        Get a flower Today
-    </a> -->
+
+
+
+
+    <!---------------ABOUT SECTION------------>
+    <section id="about">
+        <div class="container about__container">
+            <h2 class="about__title">Why You Should get <br> A Flower</h2>
+                <!-- <a href="mailto:faithiruoje@gmail.com" class="contact__btn about__btn">
+                <i class="uil uil-flower"></i>
+                <p>Get a flower Today</p>
+            </a> -->
+            <div class="about__left">
+                <div class="empty about__empty">
+                    <img src="flowers.png" alt="" width="3px" >
+                </div>
+                <p class="about__left-p"><span>T</span>he great thing about flowers is that they come in all shapes,
+                    sizes and colours. They’re the perfect way to compliment your new household designs or to help rethink the internal look of your home.
+                    It’s also really easy to choose flowers to match different personalities depending on the type of
+                     preference and styles that you’re trying to achieve.</p>
+                <p>
+                    Flower helps to you to restore some of your ability to focus.
+                    Spending time with natural elements like flowers can help you recover from attention fatigue.
+                    when next you find it difficult to concentrate, go for a walk in the garden or spend a few minutes arranging a bouquet.
+                </p>
+                <p class="about__left-p">
+                    Flower growing provides a fun and easy way to reconnect to the natural world.
+                    Studies show that gardening benefits everyone, from children to the elderly.
+                    Spending time in a garden reduces feelings of stress, anger, and sadness.
+                </p>
+            </div>
+            <div class="about__right">
+                <div class="about__image-bg">
+                    <div class="about__image-lg">
+                        <img src="https://images.pexels.com/photos/4913323/pexels-photo-4913323.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="About Image">
+                    </div>
+                    <div class="about__image-sm">
+                        <img src="https://images.pexels.com/photos/4913323/pexels-photo-4913323.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="About Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------END ABOUT SECTION------------>
+
+
+    <section id="gallery">
+        <div class="container gallery__container swiper mySwiper">
+            <div class="gallery__head">
+                <div class="gallery__title"><h2 class="gallery-para">____My Gallery</h2></div>
+                <div class="empty gallery__empty"></div>
+            </div>
+            <div class="swiper-wrapper">
+                <article class="swiper-slide">
+                    <img  src="https://images.pexels.com/photos/1122628/pexels-photo-1122628.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img  src="https://images.pexels.com/photos/2179204/pexels-photo-2179204.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img  src="https://images.pexels.com/photos/985118/pexels-photo-985118.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img  src="https://images.pexels.com/photos/4173791/pexels-photo-4173791.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img  src="https://images.pexels.com/photos/3782333/pexels-photo-3782333.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img  src="https://images.pexels.com/photos/701816/pexels-photo-701816.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                </article>
+                <article class="swiper-slide">
+                    <img  src="https://images.pexels.com/photos/1121442/pexels-photo-1121442.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="">
+                </article>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
     <script src="App.js"></script>
 </body>
 </html>
